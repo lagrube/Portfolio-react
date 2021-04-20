@@ -16,10 +16,10 @@
     animation: contactAnim 25s alternate infinite;
 
     @media screen and (max-width: 840px) {
-      height: 400px;
-      width: 400px;
+      height: 200px;
+      width: 200px;
       top: 520px;
-      right: -140px;
+      right: -1px;
     }
     @media screen and (max-width: 430px) {
       display: none;
