@@ -18,12 +18,22 @@ const Home = () => {
         <p className="smallSize">Vous pouvez me retrouver sur</p>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/guillaume-gruber-9a78a91b9/">
+            <a
+              href="https://www.linkedin.com/in/guillaume-gruber-9a78a91b9/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover"
+            >
               <i className="fab fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="https://github.com/lagrube">
+            <a
+              href="https://github.com/lagrube"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover"
+            >
               <i className="fab fa-github"></i>
             </a>
           </li>
