@@ -5,7 +5,7 @@ export const projectsData = [
     date: "Octobre 2020",
     languages: ["HTML", "CSS"],
     infos:
-      "Codage en HTML et CSS d'une maquette fournis, représentant un site de réservation en ligne d'hôtels. Première pratique du responsive et de Flexblox. Les boutons seront fonctionnels aux projets suivant.",
+      "Codage en HTML et CSS d'une maquette fournie, représentant un site de réservation en ligne d'hôtels. Première pratique du responsive et de Flexblox. Les boutons seront fonctionnels aux projets suivant.",
     img: process.env.PUBLIC_URL + "/img/projet-1.png",
     link: "https://lagrube.github.io/Reservia-P2-HTML-CSS/",
   },
@@ -15,7 +15,7 @@ export const projectsData = [
     date: "Novembre 2020",
     languages: ["HTML", "Sass"],
     infos:
-      "Codage en HTML et Sass d'une maquette fournis, représentant un site de réservation en ligne de menu de restaurant. Première pratique des animations CSS et de la mise en forme avec Sass. Site responsive. Seuls les liens vers les menus sont disponibles.",
+      "Codage en HTML et Sass d'une maquette fournie, représentant un site de réservation en ligne de menu de restaurant. Première pratique des animations CSS et de la mise en forme avec Sass. Site responsive. Seuls les liens vers les menus sont disponibles.",
     img: process.env.PUBLIC_URL + "/img/projet-2.png",
     link: "https://lagrube.github.io/OhMyFood-P3-CSS-avance/",
   },
