@@ -13,13 +13,13 @@ const App = () => {
     <AnimatePresence>
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/projet-1" component={Project1} />
-          <Route path="/projet-2" component={Project2} />
-          <Route path="/projet-3" component={Project3} />
-          <Route path="/projet-4" component={Project4} />
-          <Route path="/contact" component={Contact} />
-          <Redirect to="/" />
+          <Route path="/portfolio-deploy" exact component={Home} />
+          <Route path="/portfolio-deploy/projet-1" component={Project1} />
+          <Route path="/portfolio-deploy/projet-2" component={Project2} />
+          <Route path="/portfolio-deploy/projet-3" component={Project3} />
+          <Route path="/portfolio-deploy/projet-4" component={Project4} />
+          <Route path="/portfolio-deploy/contact" component={Contact} />
+          <Redirect to="/portfolio-deploy" />
         </Switch>
       </BrowserRouter>
     </AnimatePresence>
