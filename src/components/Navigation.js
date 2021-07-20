@@ -46,6 +46,13 @@ const Navigation = () => {
             >
               <li>projet 4</li>
             </NavLink>
+            <NavLink
+              to="/portfolio-deploy/projet-5"
+              activeClassName="nav-active"
+              className="hover"
+            >
+              <li>projet 5</li>
+            </NavLink>
           </ul>
         </li>
 

@@ -9,7 +9,10 @@ export const Project1 = () => {
       <div className="project">
         <Navigation />
         <Project projectNumber={0} />
-        <ButtonsBottom left={"/"} right={"/projet-2"} />
+        <ButtonsBottom
+          left={"/portfolio-deploy"}
+          right={"/portfolio-deploy/projet-2"}
+        />
       </div>
     </main>
   );
@@ -21,7 +24,10 @@ export const Project2 = () => {
       <div className="project">
         <Navigation />
         <Project projectNumber={1} />
-        <ButtonsBottom left={"/projet-1"} right={"/projet-3"} />
+        <ButtonsBottom
+          left={"/portfolio-deploy/projet-1"}
+          right={"/portfolio-deploy/projet-3"}
+        />
       </div>
     </main>
   );
@@ -33,7 +39,10 @@ export const Project3 = () => {
       <div className="project">
         <Navigation />
         <Project projectNumber={2} />
-        <ButtonsBottom left={"/projet-2"} right={"/projet-4"} />
+        <ButtonsBottom
+          left={"/portfolio-deploy/projet-2"}
+          right={"/portfolio-deploy/projet-4"}
+        />
       </div>
     </main>
   );
@@ -45,7 +54,25 @@ export const Project4 = () => {
       <div className="project">
         <Navigation />
         <Project projectNumber={3} />
-        <ButtonsBottom left={"/projet-3"} right={"/contact"} />
+        <ButtonsBottom
+          left={"/portfolio-deploy/projet-3"}
+          right={"/portfolio-deploy/projet-5"}
+        />
+      </div>
+    </main>
+  );
+};
+
+export const Project5 = () => {
+  return (
+    <main>
+      <div className="project">
+        <Navigation />
+        <Project projectNumber={4} />
+        <ButtonsBottom
+          left={"/portfolio-deploy/projet-4"}
+          right={"/portfolio-deploy/contact"}
+        />
       </div>
     </main>
   );

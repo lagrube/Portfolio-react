@@ -47,6 +47,13 @@ const Navbar = () => {
               >
                 <li>Projet 4</li>
               </NavLink>
+              <NavLink
+                to="/portfolio-deploy/projet-5"
+                exact
+                className="lien nav-project"
+              >
+                <li>Projet 5</li>
+              </NavLink>
             </ul>
           </li>
           <a href="https://lagrube.github.io/cv-deploy/" className="lien">
